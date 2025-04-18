@@ -1,0 +1,8 @@
+
+Make M2 screws to M3 (ones that connects torso to jetson holder)
+
+Make 60KG servo wire holes
+
+Make 12 mm bearing
+
+Make wiring paths

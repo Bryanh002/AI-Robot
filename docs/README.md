@@ -1,7 +1,7 @@
 # Bill of Materials (BOM)
 
 This folder contains the full Bill of Materials for the project.  
-For the original spreadsheet with tax calculations, see [Robot_BOM.xlsx](./Robot_BOM.xlsx).
+For the original spreadsheet, which contains more detailed descriptions for each part, see [Robot_BOM.xlsx](./Robot_BOM.xlsx).
 
 ---
 

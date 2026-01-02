@@ -1,39 +1,57 @@
 # Bill of Materials (BOM)
 
-This folder contains the full Bill of Materials for the project. For the original spreadsheet with detailed tax calculations, see [Robot_BOM.xlsx](./Robot_BOM.xlsx).
+This folder contains the full Bill of Materials for the project.  
+For the original spreadsheet with tax calculations, see [Robot_BOM.xlsx](./Robot_BOM.xlsx).
 
 ---
 
 ## ⚙️ Mechanical
 | Part | Description | Qty | Unit Cost | Total (w/ Tax) |
 | :--- | :--- | :---: | :--- | :--- |
-| **[STS3250 50kg-cm Servo](https://www.feetechrc.com/en/562636.html)** | High-torque smart servo for hip, knee, and shoulder joints. | 14 | $65.81 | $1,041.11 |
-| **[STS3235 30kg-cm Servo](https://www.feetechrc.com/en/12v-30kg-metal-shell-metal-tooth-iron-core-motor-magnetic-coding-double-shaft-ttl-series-steering-gear.html)** | Medium-torque smart servo for arm and neck joints. | 6 | $57.86 | $392.29 |
-| **[8mm Round Servo Shaft](https://www.gobilda.com/8mm-round-servo-shaft-25-tooth-spline-36mm-length/)** | Custom shafts for motion transfer to pulley assemblies. | 6 | $9.99 | $67.73 |
-| **[HTD 3M 18T Timing Pulley](https://www.aliexpress.com/item/1005007456973949.html)** | Driving pulley in the belt transmission system. | 8 | $3.02 | $27.30 |
-| **[HTD 3M 30T Timing Pulley](https://www.aliexpress.com/item/1005009686443539.html)** | Driven pulley in the gear reduction setup. | 4 | $6.79 | $30.69 |
-| **[8mm ID Washers](https://www.gobilda.com/2807-series-stainless-steel-shim-8mm-id-x-11mm-od-0-25mm-thickness-12-pack/)** | Stainless steel shims to reduce axial friction. | 1 | $2.69 | $3.04 |
-| **[MR148 Bearings](https://www.amazon.ca/uxcell-Shielded-Bearings-Electric-Skateboards/dp/B0F4XQMKXS/)** | Precision bearings for motion stability. | 1 | $16.49 | $18.63 |
-| **[MR95ZZ Bearings](https://www.amazon.ca/uxcell-Bearings-8x12x3-5mm-Miniature-Precision/dp/B0CM6G9ZKZ/)** | Miniature bearings for compact joint housings. | 1 | $16.29 | $18.41 |
-| **[5mm ID Washers](https://www.amazon.ca/Washer-Stainless-Steel-Thickness-Finish/dp/B07WZ5WQCG/)** | Distribution of load in smaller shaft assemblies. | - | - | $0.00 |
-| **[PLA Filament](https://www.amazon.ca/ELEGOO-Filament-Dimensional-Accuracy-Cardboard/dp/B0C8J1JZMT/)** | 3D printing material for structural housings. | 2 | $44.99 | $101.68 |
-| **[Loctite 638](https://www.amazon.ca/Loctite-21448-Strength-Retaining-Compound/dp/B000O01EV0)** | High-strength compound for securing shafts/pulleys. | 1 | $24.00 | $27.12 |
-| **Mechanical Subtotal** | | | | **$2,784.20** |
+| **STS3250 50kg-cm TTL Dual-shaft** | High-torque smart servo for hip, knee, and shoulder joints. | 14 | $65.81 | $1,041.11 |
+| **STS3235 30kg-cm TTL Dual-shaft** | Medium-torque smart servo for arm and neck joints. | 6 | $57.86 | $392.29 |
+| **8mm Round Servo Shaft** | Shaft adapter for belt-driven joint transmission (15% Discount from GoBilda Applied). | 6 | $9.99 | $67.73 |
+| **HTD 3M 18T Timing Pulley** | Driving pulley in belt reduction stage. | 8 | $3.02 | $27.30 |
+| **HTD 3M 30T Timing Pulley** | Driven pulley for torque amplification. | 4 | $6.79 | $30.69 |
+| **Screw Kit (M1.6–M3)** | Assorted fasteners for structural assembly. | 1 | $11.80 | $13.33 |
+| **8mm ID / 11mm OD Washers** | Shim washers to control axial play (15% Discount from GoBilda Applied). | 3 | $2.69 | $9.12 |
+| **MR148ZZ Bearings** | Radial bearings for joint rotation. | 1 | $18.95 | $21.41 |
+| **Spring Pins** | Mechanical locking pins for shafts. | 1 | $10.19 | $11.51 |
+| **TPU Filament** | Flexible filament for compliant parts. | 1 | $29.99 | $33.89 |
+| **PLA Filament** | Rigid filament for structural 3D prints. | 3 | $25.99 | $88.11 |
+| **Loctite 638** | High-strength retaining compound. | 1 | $24.00 | $27.12 |
+| **Mechanical Subtotal** | | | | **$1,763.61** |
 
 ---
 
 ## ⚡ Electrical
 | Part | Description | Qty | Unit Cost | Total (w/ Tax) |
 | :--- | :--- | :---: | :--- | :--- |
-| **[3s LiPo 8400mAh](https://www.amazon.ca/DXF-Battery-Hardcase-Airplane-Helicopter/dp/B09TDFVWHS/)** | Primary power source for servos and Jetson. | 1 | $99.99 | $112.99 |
-| **Custom PCB** | Central power and communication hub (JLCPCB). | 1 | $126.91 | $143.41 |
-| **[PCB Components](https://www.digikey.ca/short/0zvnp1rd)** | All components required for PCB assembly. | 1 | $183.00 | $206.79 |
+| **3S LiPo 8400mAh** | Main power source for servos and compute. | 1 | $99.99 | $112.99 |
+| **Custom PCB (JLCPCB)** | Power distribution and communication board. | 1 | $283.00 | $319.79 |
+| **PCB SMD and THT components** | all components required for PCB. | 1 | $85.00 | $96.05 |
+| **Male to Male DC Power Cable** | Power cable for Jetson that connects to the PCB. | 1 | $10.39 | $11.74 |
+| **14 Gauge Wire** | 14 Gauge wire for power distribution | 1 | $22.07 | $24.94 |
+| **22 Gauge Wire** | 22 Gauge wire for branching power and signal distribution | 1 | $15.89 | $17.96 |
+| **Electrical Subtotal** | | | | **$583.47** |
 
 ---
 
 ## 🧠 Software & Computing
 | Part | Description | Qty | Unit Cost | Total (w/ Tax) |
 | :--- | :--- | :---: | :--- | :--- |
-| **[Jetson Orin Nano](https://www.amazon.ca/NVIDIA-Jetson-Orin-Nano-Developer/dp/B0BZJTQ5YP/)** | Main computer for RL and motion planning. | 1 | $344.95 | $389.79 |
-| **[OAK-D Lite](https://shop.luxonis.com/products/oak-d-lite-1)** | Depth vision for obstacle detection (30% discount applied). | 1 | $147.00 | $165.93 |
-| **[KingSpec SSD 256GB](https://www.amazon.ca/KingSpec-256GB-NVMe-Gen3x4-2280/dp/B0D1R7HDJF/)** | High-speed storage for AI models and logging. | 1 | $32.99 | $37.28 |
+| **Jetson Orin Nano** | Main compute for perception, control, and RL. | 1 | $344.95 | $389.79 |
+| **OAK-D Lite** | Stereo depth camera for perception (30% Discount from Luxonis applied). | 1 | $162.00 | $183.06 |
+| **KingSpec 256GB NVMe SSD** | Storage for models, logs, and datasets. | 1 | $32.99 | $37.28 |
+| **Computing Subtotal** | | | | **$610.13** |
+
+---
+
+## 💰 Grand Total
+| Category | Total (w/ Tax) |
+| :--- | ---: |
+| Mechanical | $1,763.61 |
+| Electrical | $583.47 |
+| Software & Computing | $610.13 |
+| **Grand Total** | **$2,957.21** |
+|

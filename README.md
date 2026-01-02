@@ -133,6 +133,7 @@ Special thanks to the open-source robotics community for the tools, documentatio
 - **[Thompson Innovation Fund](https://www.eng.uwo.ca/tc/innovation-fund.html)**
 - **[WESEF](https://www.eng.uwo.ca/departments-units/finance-stores/undergrads/wesef.html)**
 - **[Luxonis](https://www.luxonis.com/)**
+- **[GoBilda](https://www.gobilda.com/)**
 ---
 
 

@@ -30,7 +30,7 @@ For the original spreadsheet with tax calculations, see [Robot_BOM.xlsx](./Robot
 | **3S LiPo 8400mAh** | Main power source for servos and compute. | 1 | $99.99 | $112.99 |
 | **Custom PCB (JLCPCB)** | Power distribution and communication board. | 1 | $283.00 | $319.79 |
 | **PCB SMD and THT components** | all components required for PCB. | 1 | $85.00 | $96.05 |
-| **Male to Male DC Power Cable** | Power cable for Jetson that connects to the PCB. | 1 | $10.39 | $11.74 |
+| **Male to Male DC Power Cable** | A power cable for the Jetson that connects to the PCB. | 1 | $10.39 | $11.74 |
 | **14 Gauge Wire** | 14 Gauge wire for power distribution | 1 | $22.07 | $24.94 |
 | **22 Gauge Wire** | 22 Gauge wire for branching power and signal distribution | 1 | $15.89 | $17.96 |
 | **Electrical Subtotal** | | | | **$583.47** |
@@ -54,4 +54,3 @@ For the original spreadsheet with tax calculations, see [Robot_BOM.xlsx](./Robot
 | Electrical | $583.47 |
 | Software & Computing | $610.13 |
 | **Grand Total** | **$2,957.21** |
-|

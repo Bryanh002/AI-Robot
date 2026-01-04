@@ -1,0 +1,72 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Bryan Heddle\OneDrive\Desktop\Ergos-Dynamic-Humanoid-Platform\electrical\PCB_Project\ROBOT_MOTHERBOARD.PcbDoc
+Date     : 12/29/2025
+Time     : 8:08:13 PM
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-2(3.195mm,48.611mm) on SIG1 And Pad C1-2(8.815mm,48.321mm) on SIG1 
+   Violation between Un-Routed Net Constraint: Net SW Between Pad U15-12(102.325mm,37.638mm) on SIG1 And Pad Q2-7(102.564mm,45.16mm) on SIG1 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-41_2(23.174mm,43.431mm) on SIG1 And Pad U1-41_1(24.574mm,43.431mm) on SIG1 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U5-1(26.117mm,29.418mm) on SIG1 And Track (28.111mm,30.507mm)(28.336mm,30.507mm) on SIG1 
+   Violation between Isolated copper: Split Plane  (11V1+) on PWR. Dead copper detected. Copper area is : 0.159 sq. mm
+   Violation between Isolated copper: Split Plane  (11V1+) on PWR. Dead copper detected. Copper area is : 0.266 sq. mm
+   Violation between Isolated copper: Split Plane  (GND) on GND. Dead copper detected. Copper area is : 0.159 sq. mm
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (28.336mm,30.507mm)(28.684mm,30.855mm) on SIG1 And Via (30.143mm,30.725mm) from SIG1 to SIG2 
+   Violation between Un-Routed Net Constraint: Via (118.924mm,3.272mm) from SIG1 to SIG2 Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (119.178mm,55.977mm) from SIG1 to SIG2 Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (3.227mm,3.272mm) from SIG1 to SIG2 Dead Copper - Net Not Assigned.
+Rule Violations :11
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Arc (1.173mm,33.327mm) on SIG1 Actual Width = 0.5mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (1.173mm,40.527mm) on SIG1 Actual Width = 0.5mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (2.073mm,33.327mm) on SIG1 Actual Width = 0.5mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (2.073mm,40.527mm) on SIG1 Actual Width = 0.5mm, Target Width = 0.254mm
+Rule Violations :4
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (5.7mm > 2.54mm) Pad J5-N(60.96mm,22.733mm) on Multi-Layer Actual Hole Size = 5.7mm
+   Violation between Hole Size Constraint: (5.7mm > 2.54mm) Pad J5-P(60.96mm,11.684mm) on Multi-Layer Actual Hole Size = 5.7mm
+   Violation between Hole Size Constraint: (3.5mm > 2.54mm) Pad J8-1(95.984mm,44.141mm) on Multi-Layer Actual Slot Hole Width = 3.5mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad J8-2(95.984mm,50.341mm) on Multi-Layer Actual Slot Hole Width = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad J8-3(90.984mm,47.341mm) on Multi-Layer Actual Slot Hole Width = 3mm
+   Violation between Hole Size Constraint: (3.048mm > 2.54mm) Via (118.924mm,3.272mm) from SIG1 to SIG2 Actual Hole Size = 3.048mm
+   Violation between Hole Size Constraint: (3.048mm > 2.54mm) Via (119.178mm,55.977mm) from SIG1 to SIG2 Actual Hole Size = 3.048mm
+   Violation between Hole Size Constraint: (3.048mm > 2.54mm) Via (3.227mm,3.272mm) from SIG1 to SIG2 Actual Hole Size = 3.048mm
+   Violation between Hole Size Constraint: (3.048mm > 2.54mm) Via (3.227mm,55.85mm) from SIG1 to SIG2 Actual Hole Size = 3.048mm
+Rule Violations :9
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('3V3'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('+5'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('GND'))
+Rule Violations :0
+
+
+Violations Detected : 24
+Waived Violations : 0
+Time Elapsed        : 00:00:09

@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=SS Pin=Css-322
-Change Component Designator: OldDesignator=32332 NewDesignator=Q1
-Add Pin To Net: Unknown Pin: Pin Css-2
-Added Member To Class: ClassName=Jetson_power Member=Component F5 3568
-Added Member To Class: ClassName=Jetson_power Member=Component J6 1017505

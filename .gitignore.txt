@@ -1,0 +1,12 @@
+# --- Altium: auto-backups / history ---
+Electrical/PCB_Project/History/
+
+# --- Altium: generated outputs ---
+Electrical/PCB_Project/Project Outputs*/
+Electrical/PCB_Project/Project Outputs for ROBOT_PCB_PROJECT.zip
+
+# --- SolidWorks temp/lock files ---
+~$*.SLDASM
+~$*.SLDPRT
+
+# Removing these files from remote but keeping locally to remove clutter in final docs.

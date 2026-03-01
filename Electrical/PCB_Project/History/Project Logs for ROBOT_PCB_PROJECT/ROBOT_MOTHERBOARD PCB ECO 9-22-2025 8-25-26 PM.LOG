@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=U1-1
-Removed Pin From Net: NetName=3V3 Pin=U1-2
-Removed Pin From Net: NetName=3V3 Pin=U1-6
-Add Pin To Net: Unknown Pin: Pin U1-0
-Add Pin To Net: Unknown Pin: Pin U1-3V3
-Added Pin To Net: NetName=3V3 Pin=U1-5
-Add Pin To Net: Unknown Pin: Pin U1-GND
-Added Pin To Net: NetName=SCL Pin=U1-6
-Added Net: Name=SCL

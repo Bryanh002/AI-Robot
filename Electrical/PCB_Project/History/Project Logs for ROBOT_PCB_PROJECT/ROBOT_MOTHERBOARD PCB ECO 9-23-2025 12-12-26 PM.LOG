@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=SIG2B Pin=J1-3
-Removed Pin From Net: NetName=SIG1B Pin=J2-3
-Removed Pin From Net: NetName=SIG2A Pin=J3-3
-Removed Pin From Net: NetName=SIG1A Pin=J4-3
-Added Pin To Net: NetName=SIG2A Pin=J1-3
-Added Pin To Net: NetName=SIG2B Pin=J2-3
-Added Pin To Net: NetName=SIG1A Pin=J3-3
-Added Pin To Net: NetName=SIG1B Pin=J4-3

@@ -1,6 +1,0 @@
-Change Component Designator: OldDesignator=C20 NewDesignator=Csns
-Change Component Designator: OldDesignator=R14 NewDesignator=Risns+
-Change Component Designator: OldDesignator=R15 NewDesignator=Risns-
-Change Net Name : Old Net Name=NetC20_1 New Net Name=NetCsns_1
-Change Net Name : Old Net Name=NetC20_2 New Net Name=NetCsns_2
-Change Net Name : Old Net Name=NetR15_2 New Net Name=NetRisns-_2

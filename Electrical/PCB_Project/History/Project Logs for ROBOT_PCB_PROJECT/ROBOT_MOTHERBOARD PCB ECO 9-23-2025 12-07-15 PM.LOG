@@ -1,9 +1,0 @@
-Added Pin To Net: NetName=5V Pin=C3-2
-Added Pin To Net: NetName=5V Pin=C16-1
-Added Pin To Net: NetName=5V Pin=C18-1
-Added Pin To Net: NetName=5V Pin=U2-1
-Added Pin To Net: NetName=5V Pin=U2-3
-Added Pin To Net: NetName=5V Pin=U4-8
-Added Pin To Net: NetName=5V Pin=U5-8
-Added Pin To Net: NetName=5V Pin=VIN-1
-Change Net Name : Old Net Name=5V New Net Name=+5

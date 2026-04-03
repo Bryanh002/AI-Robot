@@ -72,14 +72,25 @@ graph TD
   PDR --> JET["Jetson Orin Nano"]
   JET --> ROS["ROS 2 Control Stack"]
   ROS --> MCU["ESP32-S3 MCU"]
-  JET  CAM["OAK-D Lite Camera"]
-  JET  IMU["IMU"]
-  JET  FSR["Force Sensing Resistors"]
+  CAM["OAK-D Lite Camera"] --> JET
+  IMU["IMU"] --> JET
+  FSR["Force Sensing Resistors"] --> JET
   MCU --> RA["Servo Right Arm Chain"]
   MCU --> LA["Servo Left Arm Chain"]
   MCU --> LL["Servo Left Leg Chain"]
   MCU --> RL["Servo Right Leg Chain"]
-  PWR --> RA & LA & LL & RL
+  PWR --> RA
+  PWR --> LA
+  PWR --> LL
+  PWR --> RL
+
+  classDef electrical fill:#B5D4F4,stroke:#185FA5,color:#0C447C
+  classDef software fill:#FAC775,stroke:#BA7517,color:#633806
+  classDef mechanical fill:#C0DD97,stroke:#3B6D11,color:#27500A
+
+  class BAT,PDR,PWR,CAM,IMU,FSR electrical
+  class JET,ROS,MCU software
+  class RA,LA,LL,RL mechanical
 ```
 
 <p align="center">

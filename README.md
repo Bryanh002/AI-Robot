@@ -65,6 +65,23 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ## 🧩 System Architecture
 
+```mermaid
+graph TD
+  BAT["3S 8400mAh LiPo"] --> PDR["Power Distribution & Regulators"]
+  PDR --> PWR["Custom Power Harness"]
+  PDR --> JET["Jetson Orin Nano"]
+  JET --> ROS["ROS 2 Control Stack"]
+  ROS --> MCU["ESP32-S3 MCU"]
+  JET  CAM["OAK-D Lite Camera"]
+  JET  IMU["IMU"]
+  JET  FSR["Force Sensing Resistors"]
+  MCU --> RA["Servo Right Arm Chain"]
+  MCU --> LA["Servo Left Arm Chain"]
+  MCU --> LL["Servo Left Leg Chain"]
+  MCU --> RL["Servo Right Leg Chain"]
+  PWR --> RA & LA & LL & RL
+```
+
 <p align="center">
   <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/Architecture-Diagrams/ERGOS_System_Architecture.png" width="3000"/>
   <br>

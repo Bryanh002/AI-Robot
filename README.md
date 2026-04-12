@@ -14,7 +14,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 
 <p align="center">
-  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/ERGOS-Rendered-images/ERGOS-Rendered-image.png" width="3000"/>
+  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/ERGOS-Rendered-images/ERGOS-Rendered-image-dark.png" width="3000"/>
   <br>
 </p>
 

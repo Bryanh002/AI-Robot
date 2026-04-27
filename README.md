@@ -11,7 +11,7 @@
 ### Embodied Reinforcement Gait Optimization System
 ---
 
-## 🧠 Overview
+## Project Overview
 ERGOS is meant to be a low-cost, open-source platform designed for dynamic humanoid robotics research. It serves as a ROS2-based control environment that integrates serial servo hardware with Reinforcement Learning (RL) techniques. The primary goal of ERGOS is to develop and optimize dynamic, stable gait patterns for bipedal systems, demonstrating advanced movement capabilities on an economical, self-contained hardware platform. Here is a photo of ERGOS's current design:
 
 <p align="center">
@@ -33,7 +33,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## ⚙️ Features & Capabilities  
+## ERGOS Features
 *(Planned and In Progress)*
 
 ### Mechanical System
@@ -64,7 +64,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 <p align="center">
   <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/Architecture-Diagrams/ERGOS-System-Architecture.svg" width="3000"/>
@@ -75,7 +75,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## 🧪 Development Phases
+## Development Phases
 === WIP === 
 1. **Phase 1 — Hardware Creation**  
    Finalize CAD design and PCB for servo control and power distribution.
@@ -92,7 +92,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## 🧠 Technical Summary
+## Technical Summary
 - **Programming Language:** Python (planned)
 - **Frameworks:** TBD (PyTorch or TensorFlow for RL; ROS2 possible integration)
 - **Hardware:** Jetson Orin Nano, ESP32-S3, Feetech STS3235/STS3250 smart servos
@@ -100,7 +100,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 *(To be updated as the project matures)*
 
 **Planned sections:**
@@ -113,7 +113,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 
 ---
 
-## 📈 Future Work
+## Future Work
 - WIP
 
 ---

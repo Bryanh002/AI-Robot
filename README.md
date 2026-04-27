@@ -15,7 +15,7 @@
 ERGOS is meant to be a low-cost, open-source platform designed for dynamic humanoid robotics research. It serves as a ROS2-based control environment that integrates serial servo hardware with Reinforcement Learning (RL) techniques. The primary goal of ERGOS is to develop and optimize dynamic, stable gait patterns for bipedal systems, demonstrating advanced movement capabilities on an economical, self-contained hardware platform. Here is a photo of ERGOS's current design:
 
 <p align="center">
-  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/ERGOS-Rendered-images/ERGOS-Rendered-image-dark-transparent.png" width="3000"/>
+  <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/ERGOS-Rendered-images/ERGOS-Rendered-image-dark-transparent.png" width="2000"/>
   <br>
 </p>
 

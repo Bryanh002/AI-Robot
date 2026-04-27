@@ -1,3 +1,5 @@
+### [ MAIN DOC IS WIP === WILL BE UPDATED BY 07/01/2026]
+
 ```
 ███████╗██████╗  ██████╗  ██████╗ ███████╗
 ██╔════╝██╔══██╗██╔════╝ ██╔═══██╗██╔════╝
@@ -11,7 +13,6 @@
 
 ## 🧠 Overview
 ERGOS is meant to be a low-cost, open-source platform designed for dynamic humanoid robotics research. It serves as a ROS2-based control environment that integrates serial servo hardware with Reinforcement Learning (RL) techniques. The primary goal of ERGOS is to develop and optimize dynamic, stable gait patterns for bipedal systems, demonstrating advanced movement capabilities on an economical, self-contained hardware platform. Here is a photo of ERGOS's current design:
-
 
 <p align="center">
   <img src="https://github.com/Bryanh002/ERGOS-Dynamic-Humanoid-Platform/blob/main/docs/images/ERGOS-Rendered-images/ERGOS-Rendered-image-dark.png" width="3000"/>
@@ -75,6 +76,7 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 ---
 
 ## 🧪 Development Phases
+=== WIP === 
 1. **Phase 1 — Hardware Creation**  
    Finalize CAD design and PCB for servo control and power distribution.
 
@@ -102,10 +104,12 @@ ERGOS is meant to be a low-cost, open-source platform designed for dynamic human
 *(To be updated as the project matures)*
 
 **Planned sections:**
-1. Installation requirements (JetPack SDK, Python environment, dependencies)
-2. Simulation setup (RL environment)
-3. Model training and deployment instructions
-4. Hardware configuration and servo connection mapping
+1. Hardware Assembly (It's not easy, this will be detailed in Mechanical Section)
+2. Updated BOM
+3. Installation requirements (JetPack SDK, Python environment, dependencies)
+4. Simulation setup (RL environment)
+5. Model training and deployment instructions
+6. Hardware configuration and servo connection mapping
 
 ---
 

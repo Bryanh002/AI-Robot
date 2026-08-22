@@ -50,40 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\..\..\Downloads\CAN_ESP_2025-2026\CAN_ESP_2025-2026\AI_Project_Library.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LCISICOB
-
-[Document2]
-DocumentPath=..\..\..\..\..\Downloads\CAN_ESP_2025-2026\CAN_ESP_2025-2026\AI_Project_Library.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SUIMWKOL
-
-[Document3]
 DocumentPath=Schematics\MCU_IMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +57,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=-1
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -100,7 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZJOXACVU
 
-[Document4]
+[Document2]
 DocumentPath=Schematics\UART_LOGIC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +74,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=-1
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -117,7 +83,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SEWESFAS
 
-[Document5]
+[Document3]
+DocumentPath=Schematics\Battery_power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=0
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FEEZWQYU
+
+[Document4]
 DocumentPath=Schematics\Jetson_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UXBPQAFR
 
-[Document6]
+[Document5]
 DocumentPath=ROBOT_MOTHERBOARD.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,79 +134,72 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OEDTCIVJ
 
+[Document6]
+DocumentPath=ROBOT_MOTHERBOARD.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IOTQRNTC
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\Design Rule Check - ROBOT_MOTHERBOARD.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\Pick Place for ROBOT_MOTHERBOARD.csv
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD-RoundHoles-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD-SlotHoles-Plated.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument6]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GM
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument18]
-DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for ROBOT_PCB_PROJECT\ROBOT_MOTHERBOARD.REP
 DItemRevisionGUID=
 
@@ -511,71 +487,71 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=HP7D7729 (HP Officejet Pro 8610)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=NC Drill
-OutputName1=NC Drill Files
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
-Configuration1_Name1=ForceUpdateSettings
-Configuration1_Item1=False
-Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes|DocumentPath=C:\Users\Bryan Heddle\OneDrive\Desktop\Ergos-Dynamic-Humanoid-Platform\Electrical\PCB_Project\ROBOT_MOTHERBOARD.PcbDoc
-OutputType2=Mask
-OutputName2=Solder/Paste Mask Prints
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=IPC2581
-OutputName3=IPC-2581 Files
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
-OutputType4=Test Points
-OutputName4=Test Point Report
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType4=Final
+OutputName4=Final Artwork Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Plane
-OutputName5=Power-Plane Prints
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Drill
-OutputName7=Drill Drawing/Guides
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=CompositeDrill
-OutputName8=Composite Drill Drawing
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Board Stack Report
-OutputName9=Report Board Stack
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes|DocumentPath=C:\Users\Bryan Heddle\OneDrive\Desktop\Ergos-Dynamic-Humanoid-Platform\Electrical\PCB_Project\ROBOT_MOTHERBOARD.PcbDoc
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Gerber X2
-OutputName10=Gerber X2 Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-OutputType11=Final
-OutputName11=Final Artwork Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
-OutputVariantName11=[No Variations]
+OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -1246,10 +1222,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Vault Name
+ComponentLibraryIdentifier0=Altium Content Vault
+ComponentDesignItemID0=CMP-04918-000522-1
+ComponentSymbolReference0=c5c4772e39b7b1cdf4ed7dbfc316528
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1263,6 +1245,76 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Clock Sync
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Contact Plating
+ParameterUpdate3=1
+ParameterName4=Description
+ParameterUpdate4=1
+ParameterName5=Duty Cycle
+ParameterUpdate5=1
+ParameterName6=Lead Free
+ParameterUpdate6=1
+ParameterName7=Library Reference
+ParameterUpdate7=1
+ParameterName8=Max Duty Cycle
+ParameterUpdate8=1
+ParameterName9=Max Frequency
+ParameterUpdate9=1
+ParameterName10=Max Operating Temperature
+ParameterUpdate10=1
+ParameterName11=Min Operating Temperature
+ParameterUpdate11=1
+ParameterName12=Mount
+ParameterUpdate12=1
+ParameterName13=Number of Output Phases
+ParameterUpdate13=1
+ParameterName14=Number of Outputs
+ParameterUpdate14=1
+ParameterName15=Number of Pins
+ParameterUpdate15=1
+ParameterName16=Operating Supply Voltage
+ParameterUpdate16=1
+ParameterName17=Output Configuration
+ParameterUpdate17=1
+ParameterName18=Output Current
+ParameterUpdate18=1
+ParameterName19=Output Voltage
+ParameterUpdate19=1
+ParameterName20=Package Quantity
+ParameterUpdate20=1
+ParameterName21=Packaging
+ParameterUpdate21=1
+ParameterName22=Quiescent Current
+ParameterUpdate22=1
+ParameterName23=Radiation Hardening
+ParameterUpdate23=1
+ParameterName24=RoHS Compliant
+ParameterUpdate24=1
+ParameterName25=Switching Frequency
+ParameterUpdate25=1
+ParameterName26=Synchronous Rectifier
+ParameterUpdate26=1
+ParameterName27=Topology
+ParameterUpdate27=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=FP-RTE0016E-IPC_A
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=FP-RTE0016E-IPC_B
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=FP-RTE0016E-IPC_C
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=FP-RTE0016E-MFG
+ModelUpdate3=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

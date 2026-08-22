@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=11V1+ Pin=J5-P
+Added Component: Designator=U?(RQP0026A-MFG)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2025 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "TPS259851RQPR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TPS259851RQPR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "TPS259851RQPR.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TYPE"; Value = "TYPE"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61
+Added Pin To Net: NetName=11V1+ Pin=U16-10
+Added Pin To Net: NetName=11V1+ Pin=U16-11
+Added Pin To Net: NetName=11V1+ Pin=U16-12
+Added Pin To Net: NetName=11V1+ Pin=U16-13
+Added Pin To Net: NetName=11V1+ Pin=U?-10
+Added Pin To Net: NetName=11V1+ Pin=U?-11
+Added Pin To Net: NetName=11V1+ Pin=U?-12
+Added Pin To Net: NetName=11V1+ Pin=U?-13
+Added Pin To Net: NetName=11V1  Pin=U?-23
+Added Pin To Net: NetName=11V1  Pin=U?-24
+Added Pin To Net: NetName=11V1  Pin=U?-25
+Added Pin To Net: NetName=11V1  Pin=U?-26
+Added Net: Name=11V1 
+Added Pin To Net: NetName=11V1 Pin=J5-P
+Added Pin To Net: NetName=11V1 Pin=U16-22
+Added Pin To Net: NetName=11V1 Pin=U16-23
+Added Pin To Net: NetName=11V1 Pin=U16-24
+Added Pin To Net: NetName=11V1 Pin=U16-25
+Added Pin To Net: NetName=11V1 Pin=U16-26
+Added Net: Name=11V1
+Change Class Name : Old Net Name=Sheet1 New Net Name=Battery_power
+Added Class: Name=Sheet1

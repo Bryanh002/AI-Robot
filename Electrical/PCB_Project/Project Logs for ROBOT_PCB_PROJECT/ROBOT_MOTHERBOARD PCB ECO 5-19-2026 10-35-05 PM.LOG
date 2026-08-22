@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=U1-3
+Removed Pin From Net: NetName=3V3 Pin=U1-3
+Removed Pin From Net: NetName=GND Pin=U1-22
+Removed Pin From Net: NetName=Blink Pin=U1-22
+Add Pin To Net: Unknown Pin: Pin Css-2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61

@@ -1,0 +1,9 @@
+Change Footprint: Cannot match pads with new footprint in component :U1 Footprint:XCVR_ESP32-S3-MINI-1-N8
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61
+Added Pin To Net: NetName=NetRpg_2 Pin=Rpg-2
+Added Pin To Net: NetName=NetRpg_2 Pin=U15-14
+Added Net: Name=NetRpg_2

@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=SS Pin=Css-
+Removed Pin From Net: NetName=RT/CLK Pin=Rt-
+Change Component Footprint: Designator=Reset1 Old Footprint=SW_1825910-6-4 New Footprint=FP-PTS810SJM250SMTRLFS-MFG
+Change Component Comment : Designator=Reset1 Old Comment=1825910-6 New Comment=PTS810SJM250SMTRLFS
+Change Managed Component Library Link : Designator=Reset1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=9CCAD049-5EFF-4F2B-B204-0F93EA332ED2 Old RevisionGUID= New RevisionGUID=174FD8C8-DCBF-461B-85DA-AD463FA33398
+Change component parameters: Designator = "Reset1" ("Reset1"); Footprint = "SW_1825910-6-4"; UniqueID = "\TSSYPOLK" ("\TSSYPOLK")
+Change component parameters (AddParameter): Name = "Actuator Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Silver"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "4.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Illumination Type"; Value = "Non-Illuminated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Current Rating"; Value = "50mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mechanical Life"; Value = "150000Cycles"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Force"; Value = "160gf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "2900"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Switch Function"; Value = "Off-Mom"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Switch Travel"; Value = "0.15mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "J-Bend"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Throw Configuration"; Value = "SPST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "16V"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin Css-2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Added Member To Class: ClassName=UART_LOGIC Member=Component C7 u1
+Added Member To Class: ClassName=UART_LOGIC Member=Component C8 u1
+Added Member To Class: ClassName=UART_LOGIC Member=Component C9 u1
+Added Member To Class: ClassName=UART_LOGIC Member=Component C10 u1
+Added Member To Class: ClassName=UART_LOGIC Member=Component C11 u1
+Added Member To Class: ClassName=UART_LOGIC Member=Component C12 u1
+Added Member To Class: ClassName=UART_LOGIC Member=Component C13 u1
+Added Member To Class: ClassName=UART_LOGIC Member=Component C14 u1
+Added Member To Class: ClassName=Jetson_power Member=Component J5 XT90PW-M
+Added Member To Class: ClassName=MCU_IMU Member=Component J9 M20-9990246
+Added Member To Class: ClassName=MCU_IMU Member=Component J10 M20-9990246
+Added Member To Class: ClassName=UART_LOGIC Member=Component R6 47O
+Added Member To Class: ClassName=UART_LOGIC Member=Component R7 10kO
+Added Member To Class: ClassName=UART_LOGIC Member=Component R8 47O
+Added Member To Class: ClassName=UART_LOGIC Member=Component R9 10kO
+Added Member To Class: ClassName=UART_LOGIC Member=Component R10 47O
+Added Member To Class: ClassName=UART_LOGIC Member=Component R11 10kO
+Added Member To Class: ClassName=UART_LOGIC Member=Component R12 47O
+Added Member To Class: ClassName=UART_LOGIC Member=Component R13 10kO
+Added Member To Class: ClassName=MCU_IMU Member=Component R14 RMCF1206FG10K0
+Added Member To Class: ClassName=MCU_IMU Member=Component R15 RMCF1206FG10K0
+Added Member To Class: ClassName=UART_LOGIC Member=Component U7 SN74AHCT1G125DBVT
+Added Member To Class: ClassName=UART_LOGIC Member=Component U8 SN74AHCT1G125DBVT
+Added Member To Class: ClassName=UART_LOGIC Member=Component U9 SN74AHCT1G125DBVT
+Added Member To Class: ClassName=UART_LOGIC Member=Component U10 SN74AHCT1G125DBVT
+Added Member To Class: ClassName=UART_LOGIC Member=Component U11 SN74AHCT1G125DBVT
+Added Member To Class: ClassName=UART_LOGIC Member=Component U12 SN74AHCT1G125DBVT
+Added Member To Class: ClassName=UART_LOGIC Member=Component U13 SN74AHCT1G125DBVT
+Added Member To Class: ClassName=UART_LOGIC Member=Component U14 SN74AHCT1G125DBVT

@@ -1,0 +1,53 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Bryan Heddle\OneDrive\Desktop\Ergos-Dynamic-Humanoid-Platform\electrical\PCB_Project\ROBOT_MOTHERBOARD.PcbDoc
+Date     : 8/9/2026
+Time     : 9:33:16 PM
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InComponent('U16')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Via (119.178mm,55.977mm) from SIG1 to SIG2 Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (3.227mm,55.85mm) from SIG1 to SIG2 Dead Copper - Net Not Assigned.
+Rule Violations :2
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=1mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=6mm) (All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('3V3'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('+5'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('GND'))
+Rule Violations :0
+
+
+Violations Detected : 2
+Waived Violations : 0
+Time Elapsed        : 00:00:07

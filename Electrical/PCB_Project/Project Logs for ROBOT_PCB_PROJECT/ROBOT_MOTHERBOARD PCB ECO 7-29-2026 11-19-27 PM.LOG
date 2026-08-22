@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=Battery_power Member=C?
+Change Footprint: Cannot match pads with new footprint in component :U1 Footprint:XCVR_ESP32-S3-MINI-1-N8
+Change Component Designator: OldDesignator=C39 NewDesignator=C40
+Change Component Designator: OldDesignator=C? NewDesignator=C39
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61
+Added Member To Class: ClassName=Battery_power Member=Component C40 CC0402KRX7R9BB104

@@ -1,0 +1,68 @@
+Change Footprint: Cannot match pads with new footprint in component :U1 Footprint:XCVR_ESP32-S3-MINI-1-N8
+Added Component: Designator=J6(PHOENIX_1017503)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "1017503"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1017503"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "1017503.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J7(PHOENIX_1862042)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "1862042"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Phoenix Contact'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1862042"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "1862042.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J8(PHOENIX_1017503)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "1017503"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1017503"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "1017503.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J9(PHOENIX_1862042)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "1862042"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Phoenix Contact'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1862042"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Count"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "1862042.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Added Pin To Net: NetName=11V1_F2 Pin=J6-1_1
+Added Pin To Net: NetName=11V1_F2 Pin=J6-1_2
+Added Pin To Net: NetName=GND Pin=J6-2_1
+Added Pin To Net: NetName=GND Pin=J6-2_2
+Added Pin To Net: NetName=11V1_F3 Pin=J7-1_1
+Added Pin To Net: NetName=11V1_F3 Pin=J7-1_2
+Added Pin To Net: NetName=GND Pin=J7-2_1
+Added Pin To Net: NetName=GND Pin=J7-2_2
+Added Pin To Net: NetName=11V1_F4 Pin=J8-1_1
+Added Pin To Net: NetName=11V1_F4 Pin=J8-1_2
+Added Pin To Net: NetName=GND Pin=J8-2_1
+Added Pin To Net: NetName=GND Pin=J8-2_2
+Added Pin To Net: NetName=11V1_F5 Pin=J9-1_1
+Added Pin To Net: NetName=11V1_F5 Pin=J9-1_2
+Added Pin To Net: NetName=GND Pin=J9-2_1
+Added Pin To Net: NetName=GND Pin=J9-2_2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61
+Added Member To Class: ClassName=Jetson_power Member=Component J6 1017503
+Added Member To Class: ClassName=Jetson_power Member=Component J7 1862042
+Added Member To Class: ClassName=Jetson_power Member=Component J8 1017503
+Added Member To Class: ClassName=Jetson_power Member=Component J9 1862042

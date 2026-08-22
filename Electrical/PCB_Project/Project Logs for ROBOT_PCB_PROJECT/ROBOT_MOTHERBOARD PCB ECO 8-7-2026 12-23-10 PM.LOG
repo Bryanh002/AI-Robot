@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=Rt-1
+Add Pin To Net: Unknown Pin: Pin C4-1
+Added Pin To Net: NetName=RT/CLK Pin=Rt-1
+Add Pin To Net: Unknown Pin: Pin Rt-2

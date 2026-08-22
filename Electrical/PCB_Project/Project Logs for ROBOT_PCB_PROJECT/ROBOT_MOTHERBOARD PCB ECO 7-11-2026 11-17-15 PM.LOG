@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=11V1+ Pin=U16-10
+Removed Pin From Net: NetName=11V1+ Pin=U16-11
+Removed Pin From Net: NetName=11V1+ Pin=U16-12
+Removed Pin From Net: NetName=11V1+ Pin=U16-13
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Added Pin To Net: NetName=11V1 Pin=J5-P
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61

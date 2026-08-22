@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=Rt-
+Change Component Footprint: Designator=Rfbt Old Footprint=RESC0603(1608)_N New Footprint=RESC1005X40X25NL05T05
+Change Component Comment : Designator=Rfbt Old Comment=160K 1% 0603(1608) New Comment=CRCW0402150KFKED
+Change Managed Component Library Link : Designator=Rfbt Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=2D06171F-2A2F-4D50-A36C-3962CA583076 New ItemGUID=6D37E5E2-95BC-4D56-AC27-63B14BDD72AA Old RevisionGUID=1B494F09-C79B-4664-A4F8-D25FBC7E197E New RevisionGUID=4B965310-0324-4188-93CF-765676635169
+Change component parameters: Designator = "Rfbt" ("Rfbt"); Footprint = "RESC0603(1608)_N"; UniqueID = "\QYVOCSIE" ("\QYVOCSIE")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW0402150KFKED"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Rt-2

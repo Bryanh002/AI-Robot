@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=Jetson_power Member=J11
+Removed Member From Class: ClassName=Jetson_power Member=J14
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61
+Added Member To Class: ClassName=Jetson_power Member=Component J8 1017503
+Added Member To Class: ClassName=Jetson_power Member=Component J9 1862042
+Added Member To Class: ClassName=MCU_IMU Member=Component J12 BM02B-SRSS-TBT

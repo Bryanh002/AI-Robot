@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=4V7 Pin=R24-2
+Removed Pin From Net: NetName=11V1+ Pin=Ruvlo1-2
+Removed Pin From Net: NetName=GND Pin=Ruvlo2-1
+Removed Member From Class: ClassName=Jetson_power Member=Ruvlo1
+Removed Member From Class: ClassName=Jetson_power Member=Ruvlo2
+Change Footprint: Cannot match pads with new footprint in component :U1 Footprint:XCVR_ESP32-S3-MINI-1-N8
+Change Component Designator: OldDesignator=R? NewDesignator=R27
+Added Component: Designator=C?(CAPC1608X90N)
+Add component (AddParameter): Name = "Case/Package"; Value = "1608 Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/GRM1885C1H101JA01D/Murata+Electronics+North+America/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Design Item ID"; Value = "GRM1885C1H101JA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "GRM1885C1H101JA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/GRM1885C1H101JA01D/Murata+Electronics+North+America/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Source"; Value = "GRM1885C1H101JA01D.SchLib"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C4-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Added Pin To Net: NetName=4V7 Pin=R24-1
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Add Pin To Net: Unknown Pin: Pin U1-61_4
+Add Pin To Net: Unknown Pin: Pin U1-61
+Added Pin To Net: NetName=F_PG Pin=R24-2
+Added Pin To Net: NetName=F_PG Pin=U15-15
+Added Pin To Net: NetName=F_PG Pin=U16-19
+Added Net: Name=F_PG
+Added Pin To Net: NetName=GPIO1 Pin=CADC-1
+Added Pin To Net: NetName=GPIO1 Pin=RADC-2
+Added Pin To Net: NetName=GPIO1 Pin=U1-5
+Added Net: Name=GPIO1
+Added Pin To Net: NetName=GPIO2 Pin=C?-2
+Added Pin To Net: NetName=GPIO2 Pin=U16-5
+Added Net: Name=GPIO2
+Added Member To Class: ClassName=Battery_power Member=Component C? GRM1885C1H101JA01D

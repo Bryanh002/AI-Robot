@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=GND Pin=C4-
+Removed Pin From Net: NetName=SS Pin=Css-
+Removed Pin From Net: NetName=GPIO4 Pin=J11-2
+Removed Pin From Net: NetName=GPIO5 Pin=J12-2
+Removed Pin From Net: NetName=GPIO6 Pin=J13-2
+Removed Pin From Net: NetName=GPIO7 Pin=J14-2
+Removed Pin From Net: NetName=GPIO4 Pin=R6-1
+Removed Pin From Net: NetName=GPIO5 Pin=R7-1
+Removed Pin From Net: NetName=GPIO6 Pin=R8-1
+Removed Pin From Net: NetName=GPIO7 Pin=R9-1
+Removed Pin From Net: NetName=GPIO4 Pin=R28-1
+Removed Pin From Net: NetName=GPIO5 Pin=R29-1
+Removed Pin From Net: NetName=GPIO6 Pin=R30-1
+Removed Pin From Net: NetName=GPIO7 Pin=R31-1
+Removed Pin From Net: NetName=RT/CLK Pin=Rt-
+Added Pin To Net: NetName=FSR1 Pin=J11-2
+Added Pin To Net: NetName=FSR1 Pin=R6-1
+Added Pin To Net: NetName=FSR1 Pin=R28-1
+Added Net: Name=FSR1
+Added Pin To Net: NetName=FSR2 Pin=J12-2
+Added Pin To Net: NetName=FSR2 Pin=R7-1
+Added Pin To Net: NetName=FSR2 Pin=R29-1
+Added Net: Name=FSR2
+Added Pin To Net: NetName=FSR3 Pin=J13-2
+Added Pin To Net: NetName=FSR3 Pin=R8-1
+Added Pin To Net: NetName=FSR3 Pin=R30-1
+Added Net: Name=FSR3
+Added Pin To Net: NetName=FSR4 Pin=J14-2
+Added Pin To Net: NetName=FSR4 Pin=R9-1
+Added Pin To Net: NetName=FSR4 Pin=R31-1
+Added Net: Name=FSR4

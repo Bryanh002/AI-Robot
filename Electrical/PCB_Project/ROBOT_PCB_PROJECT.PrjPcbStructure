@@ -1,3 +1,4 @@
-Record=TopLevelDocument|FileName=Jetson_power.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Jetson_power.SchDoc|FileName=MCU_IMU.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Jetson_power.SchDoc|FileName=UART_LOGIC.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=Battery_power.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Battery_power.SchDoc|FileName=Jetson_power.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Battery_power.SchDoc|FileName=MCU_IMU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Battery_power.SchDoc|FileName=UART_LOGIC.SchDoc|SheetNumber=2

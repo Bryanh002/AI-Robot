@@ -1,0 +1,70 @@
+---
+config:
+  theme: base
+  themeVariables:
+    primaryColor: '#E6F1FB'
+    primaryTextColor: '#0C447C'
+    primaryBorderColor: '#185FA5'
+    lineColor: '#888780'
+    secondaryColor: '#FAEEDA'
+    tertiaryColor: '#EAF3DE'
+    background: '#ffffff'
+    fontSize: 14px
+  layout: elk
+---
+flowchart TB
+    BAT["3S 8400mAh LiPo 11.1V nominal"] -- "11.1V" --> PDR["Power Distribution & Regulators"]
+    PDR --> BOOST["Boost Converter 11.1V → 19V"] & PWR["Custom Power Harness · 11.1V"]
+    BOOST -- 19V barrel jack --> JET["Jetson Orin Nano Dev Kit"]
+    JET --> ROS["ROS 2 Control Stack"]
+    ROS -- UART over USB --> ESP["ESP32-S3 MCU"]
+    CAM["OAK-D Lite Depth Camera"] -- "USB 3.0" --> JET
+    IMU["IMU"] -- I²C --> ESP
+    FSR["Force Sensing Resistors"] -- ADC --> ESP
+    PWR --> N["Servo Neck 2 DOF"] & RA["Servo Right Arm 3 DOF"] & RL["Servo Right Leg 5 DOF"] & LA["Servo Left Arm 3 DOF"] & LL["Servo Left Leg 5 DOF"]
+    ESP -- "Half-duplex UART" --> BUS1["UART Bus 1 · 1 Mbps Half-duplex Feetech SCS/STS"] & BUS2["UART Bus 2 · 1 Mbps Half-duplex Feetech SCS/STS"]
+    BUS1 --> N & RA & RL
+    BUS2 --> LA & LL
+
+     BAT:::electrical
+     PDR:::electrical
+     BOOST:::electrical
+     PWR:::electrical
+     JET:::software
+     ROS:::software
+     ESP:::software
+     CAM:::electrical
+     IMU:::electrical
+     FSR:::electrical
+     N:::mechanical
+     RA:::mechanical
+     RL:::mechanical
+     LA:::mechanical
+     LL:::mechanical
+     BUS1:::bus
+     BUS2:::bus
+    classDef electrical fill:#E6F1FB,stroke:#185FA5,color:#0C447C,rx:6
+    classDef software   fill:#FAEEDA,stroke:#BA7517,color:#633806,rx:6
+    classDef mechanical fill:#EAF3DE,stroke:#3B6D11,color:#27500A,rx:6
+    classDef bus        fill:#F1EFE8,stroke:#888780,color:#2C2C2A,stroke-dasharray:4 2,rx:6
+    linkStyle 0 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 1 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 2 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 3 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 4 stroke:#BA7517,stroke-width:2px,fill:none
+    linkStyle 5 stroke:#BA7517,stroke-width:2px,fill:none
+    linkStyle 6 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 7 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 8 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 9 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 10 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 11 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 12 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 13 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 14 stroke:#BA7517,stroke-width:2px,fill:none
+    linkStyle 15 stroke:#BA7517,stroke-width:2px,fill:none
+    linkStyle 16 stroke:#888780,stroke-width:2px,fill:none
+    linkStyle 17 stroke:#888780,stroke-width:2px,fill:none
+    linkStyle 18 stroke:#888780,stroke-width:2px,fill:none
+    linkStyle 19 stroke:#888780,stroke-width:2px,fill:none
+    linkStyle 20 stroke:#888780,stroke-width:2px,fill:none

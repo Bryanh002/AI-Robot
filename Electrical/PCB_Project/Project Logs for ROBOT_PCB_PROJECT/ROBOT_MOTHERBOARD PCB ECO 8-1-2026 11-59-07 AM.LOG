@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=C4-
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin Css-2
+Add Pin To Net: Unknown Pin: Pin Rt-2
+Added Member To Class: ClassName=MCU_IMU Member=Component C6 CC0805KRX7R9BB104

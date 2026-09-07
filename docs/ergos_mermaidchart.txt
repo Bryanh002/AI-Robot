@@ -14,14 +14,15 @@ config:
 ---
 flowchart TB
     BAT["3S 8400mAh LiPo 11.1V nominal"] -- "11.1V" --> PDR["Power Distribution & Regulators"]
-    PDR --> BOOST["Boost Converter 11.1V → 19V"] & PWR["Custom Power Harness · 11.1V"]
-    BOOST -- 19V barrel jack --> JET["Jetson Orin Nano Dev Kit"]
+    PDR --> BOOST["Boost Converter 11.1V → 18V"] & PWR["Custom Power Harness · 11.1V"]
+    BOOST -- 18V barrel jack --> JET["Jetson Orin Nano Dev Kit"]
     JET --> ROS["ROS 2 Control Stack"]
-    ROS -- UART over USB --> ESP["ESP32-S3 MCU"]
+    JET -- "5V USB (logic)" --> ESP["ESP32-S3 MCU"]
+    ROS -- UART over USB --> ESP
     CAM["OAK-D Lite Depth Camera"] -- "USB 3.0" --> JET
     IMU["IMU"] -- I²C --> ESP
-    FSR["Force Sensing Resistors"] -- ADC --> ESP
-    PWR --> N["Servo Neck 2 DOF"] & RA["Servo Right Arm 3 DOF"] & RL["Servo Right Leg 5 DOF"] & LA["Servo Left Arm 3 DOF"] & LL["Servo Left Leg 5 DOF"]
+    FSR["Force Sensing Resistors · 2 per foot"] -- ADC --> ESP
+    PWR --> N["Servo Neck 2 DOF"] & RA["Servo Right Arm 4 DOF"] & RL["Servo Right Leg 5 DOF"] & LA["Servo Left Arm 4 DOF"] & LL["Servo Left Leg 5 DOF"]
     ESP -- "Half-duplex UART" --> BUS1["UART Bus 1 · 1 Mbps Half-duplex Feetech SCS/STS"] & BUS2["UART Bus 2 · 1 Mbps Half-duplex Feetech SCS/STS"]
     BUS1 --> N & RA & RL
     BUS2 --> LA & LL
@@ -52,8 +53,8 @@ flowchart TB
     linkStyle 2 stroke:#185FA5,stroke-width:2px,fill:none
     linkStyle 3 stroke:#185FA5,stroke-width:2px,fill:none
     linkStyle 4 stroke:#BA7517,stroke-width:2px,fill:none
-    linkStyle 5 stroke:#BA7517,stroke-width:2px,fill:none
-    linkStyle 6 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 5 stroke:#185FA5,stroke-width:2px,fill:none
+    linkStyle 6 stroke:#BA7517,stroke-width:2px,fill:none
     linkStyle 7 stroke:#185FA5,stroke-width:2px,fill:none
     linkStyle 8 stroke:#185FA5,stroke-width:2px,fill:none
     linkStyle 9 stroke:#185FA5,stroke-width:2px,fill:none
@@ -61,10 +62,11 @@ flowchart TB
     linkStyle 11 stroke:#185FA5,stroke-width:2px,fill:none
     linkStyle 12 stroke:#185FA5,stroke-width:2px,fill:none
     linkStyle 13 stroke:#185FA5,stroke-width:2px,fill:none
-    linkStyle 14 stroke:#BA7517,stroke-width:2px,fill:none
+    linkStyle 14 stroke:#185FA5,stroke-width:2px,fill:none
     linkStyle 15 stroke:#BA7517,stroke-width:2px,fill:none
-    linkStyle 16 stroke:#888780,stroke-width:2px,fill:none
+    linkStyle 16 stroke:#BA7517,stroke-width:2px,fill:none
     linkStyle 17 stroke:#888780,stroke-width:2px,fill:none
     linkStyle 18 stroke:#888780,stroke-width:2px,fill:none
     linkStyle 19 stroke:#888780,stroke-width:2px,fill:none
     linkStyle 20 stroke:#888780,stroke-width:2px,fill:none
+    linkStyle 21 stroke:#888780,stroke-width:2px,fill:none

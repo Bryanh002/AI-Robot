@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=11V1+ Pin=D2-1
+Removed Pin From Net: NetName=GND Pin=D2-3
+Change Component Footprint: Designator=D2 Old Footprint=FP-PowerDI5-MFG New Footprint=DIO_PDS1040-13
+Change Managed Component Library Link : Designator=D2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=70284925-3BE7-4A25-A5D1-70C7BC6AC508 Old ItemGUID=0526466B-2065-4D69-963F-F3B5B614CEEA New ItemGUID=0A40D34B-B2F6-4643-8FDF-DDA49C4E9A22 Old RevisionGUID=56079948-9D1D-4987-911B-1556EFB331E7 New RevisionGUID=212E4C68-FE9F-47AC-81CD-D0B5CCE3351C
+Change component parameters: Designator = "D2" ("D2"); Footprint = "FP-PowerDI5-MFG"; UniqueID = "\MZGGHLHM" ("\MZGGHLHM")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "PowerDI™-5 Diodes Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PDS1040-13/Diodes+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Standard"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Design Item ID"; Value = "PDS1040-13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Diodes Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "PDS1040-13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PDS1040-13/Diodes+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Source"; Value = "PDS1040-13.SchLib"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C4-1
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=11V1+ Pin=D2-3
+Added Pin To Net: NetName=18V Pin=J10-1
+Add Pin To Net: Unknown Pin: Pin Rt-2
